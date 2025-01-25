@@ -1,0 +1,3 @@
+# bug in reducing count , on bad input and accepted input, only reducing on out of bound
+# change the code little bit, to make it more appropriate than the out of bound
+# Duplicate false value bug is there, need to check it once 
