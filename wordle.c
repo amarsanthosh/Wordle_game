@@ -191,7 +191,7 @@ Result* cw(char* guess, char* word){
 
 void print_results(Result* res,char* guess, char* correct){
     int i;
-
+    rounds++;
     for(int i=0;i<5;i++){
         switch(res[i]){
             case ResultGreen:
@@ -213,6 +213,9 @@ void print_results(Result* res,char* guess, char* correct){
 }
 
 void gameloop(char* correct){
+    // if(rounds == 5) {
+    //     win = false;
+    // }
     char* input;
     Result* res;
     ValResult valres;
@@ -225,9 +228,10 @@ void gameloop(char* correct){
     switch(valres){
         case ValBadInput:
             printf("%s\n","Bad input");
+            rounds++;
             return ;
         case ValNoSuchWord:
-            printf("%s\n","No such word- only 5 letter English words allowed");
+            printf("%s\n","No such word- in the wordlist");
             rounds++;
             return;
         default:
@@ -291,9 +295,12 @@ int main(int argc, char *argv[]){
     assert(!(n<0));
     p = randomword(n);
 
+    printf("Enter a valid '5' Letter English Word !\n");
+
     continuation = true;
     while (continuation)
-        gameloop(p);
+        if(rounds<5) gameloop(p);
+        else break;
 
     printf("The correct word was : '%s' \n",p);
     if(win)
