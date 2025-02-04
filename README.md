@@ -51,4 +51,4 @@ Feel free to **fork** this repository and **submit pull requests**. Any suggesti
 This project is **open-source** and available under the **MIT** License.
 
 ## 🎉 Have fun playing Wordle in C!
-If you like this project, ⭐ **star** the repo and share your feedback!
+If you like this project, ⭐ **star** the repo and **share your feedback**!
