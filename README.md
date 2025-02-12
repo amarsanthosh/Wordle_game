@@ -1,9 +1,9 @@
 
-# Wordle Game in C 🎯  
+# Wordle Game in C 
 
 A simple **command-line Wordle game** built in **C**, where players get **5 attempts** to guess a randomly selected 5-letter word. The game provides **color-coded feedback** to guide the player toward the correct word.  
 
-## 📌 Features  
+## Features  
 - ✅ Random word selection from a predefined word list  
 - ✅ Validates user input (only 5-letter words allowed)  
 - ✅ Provides color-coded feedback:  
@@ -13,14 +13,14 @@ A simple **command-line Wordle game** built in **C**, where players get **5 atte
 - ✅ Secure coding practices – memory safety, input validation, and error handling  
 - ✅ Simple and easy-to-use interface  
 
-## 🎮 How to Play  
+##  How to Play  
 1. Run the program.  
 2. Enter a **valid 5-letter word**.  
 3. Get color-coded hints after each guess.  
 4. You have **5 attempts** to guess the correct word.  
 5. If you guess correctly, you win! Otherwise, the correct word is revealed.  
 
-## 🔧 Installation & Compilation  
+##  Installation & Compilation  
 ### Prerequisites  
 - GCC compiler (or any C compiler)  
 - Linux/macOS (or Windows with WSL)  
