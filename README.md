@@ -14,7 +14,7 @@ A simple **command-line Wordle game** built in **C**, where players get **5 atte
 - ✅ Simple and easy-to-use interface  
 
 ##  How to Play  
-1. Run the program.  
+1. Run the program. 
 2. Enter a **valid 5-letter word**.  
 3. Get color-coded hints after each guess.  
 4. You have **5 attempts** to guess the correct word.  
