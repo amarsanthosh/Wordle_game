@@ -4,14 +4,14 @@
 A simple **command-line Wordle game** built in **C**, where players get **5 attempts** to guess a randomly selected 5-letter word. The game provides **color-coded feedback** to guide the player toward the correct word.  
 
 ## Features  
-- ✅ Random word selection from a predefined word list  
-- ✅ Validates user input (only 5-letter words allowed)  
-- ✅ Provides color-coded feedback:  
+-  Random word selection from a predefined word list  
+-  Validates user input (only 5-letter words allowed)  
+-  Provides color-coded feedback:  
   - 🟩 **Green**: Correct letter in the correct position  
   - 🟨 **Yellow**: Correct letter in the wrong position  
   - 🟥 **Red**: Letter not in the word  
-- ✅ Secure coding practices – memory safety, input validation, and error handling  
-- ✅ Simple and easy-to-use interface  
+-  Secure coding practices – memory safety, input validation, and error handling  
+-  Simple and easy-to-use interface  
 
 ##  How to Play  
 1. Run the program. 
@@ -39,7 +39,7 @@ A simple **command-line Wordle game** built in **C**, where players get **5 atte
    ```
     ./wordle
   ```
-## 🚀 Future Improvements
+##  Future Improvements
 - 🔹 Add a **graphical interface (GUI)** for better user experience
 - 🔹 Enhance the **word validation mechanism**
 - 🔹 Implement **difficulty levels**
